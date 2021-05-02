@@ -1,7 +1,8 @@
 package odt
 
 type Content struct {
-	Elements []DocElement
+	Elements    []DocElement
+	PreRendered []byte
 }
 
 const contentFile = "content.xml"
@@ -31,6 +32,10 @@ func (c *Content) Add(elements ...DocElement) *Content {
 }
 
 func (c *Content) write() []byte {
+	if len(c.PreRendered) > 0 {
+		return c.PreRendered
+	}
+
 	content := ""
 	for _, element := range c.Elements {
 		content += element.String()
