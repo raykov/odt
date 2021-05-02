@@ -150,6 +150,58 @@ func (ss *Styles) styles() []byte {
 			<style:text-properties fo:font-style="italic" fo:font-weight="bold" style:font-style-asian="italic" style:font-weight-asian="bold"/>
 		</style:style>
 
+		<text:list-style style:name="Default">
+		  <text:list-level-style-number text:level="1" text:style-name="ListLabel_20_10" style:num-suffix="." style:num-format="1">
+			<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+			  <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="0.5in"/>
+			</style:list-level-properties>
+		  </text:list-level-style-number>
+		  <text:list-level-style-number text:level="2" text:style-name="ListLabel_20_11" style:num-suffix="." style:num-format="a" style:num-letter-sync="true">
+			<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+			  <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="1in"/>
+			</style:list-level-properties>
+		  </text:list-level-style-number>
+		  <text:list-level-style-number text:level="3" text:style-name="ListLabel_20_12" style:num-suffix="." style:num-format="i">
+			<style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="end">
+			  <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="1.5in"/>
+			</style:list-level-properties>
+		  </text:list-level-style-number>
+		  <text:list-level-style-number text:level="4" text:style-name="ListLabel_20_13" style:num-suffix="." style:num-format="1">
+			<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+			  <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="2in"/>
+			</style:list-level-properties>
+		  </text:list-level-style-number>
+		  <text:list-level-style-number text:level="5" text:style-name="ListLabel_20_14" style:num-suffix="." style:num-format="a" style:num-letter-sync="true">
+			<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+			  <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="2.5in"/>
+			</style:list-level-properties>
+		  </text:list-level-style-number>
+		  <text:list-level-style-number text:level="6" text:style-name="ListLabel_20_15" style:num-suffix="." style:num-format="i">
+			<style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="end">
+			  <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="3in"/>
+			</style:list-level-properties>
+		  </text:list-level-style-number>
+		  <text:list-level-style-number text:level="7" text:style-name="ListLabel_20_16" style:num-suffix="." style:num-format="1">
+			<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+			  <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="3.5in"/>
+			</style:list-level-properties>
+		  </text:list-level-style-number>
+		  <text:list-level-style-number text:level="8" text:style-name="ListLabel_20_17" style:num-suffix="." style:num-format="a" style:num-letter-sync="true">
+			<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+			  <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="4in"/>
+			</style:list-level-properties>
+		  </text:list-level-style-number>
+		  <text:list-level-style-number text:level="9" text:style-name="ListLabel_20_18" style:num-suffix="." style:num-format="i">
+			<style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="end">
+			  <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="4.5in"/>
+			</style:list-level-properties>
+		  </text:list-level-style-number>
+		  <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+			<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+			  <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.75in" fo:text-indent="-0.25in" fo:margin-left="2.75in"/>
+			</style:list-level-properties>
+		  </text:list-level-style-number>
+		</text:list-style>
 
 
 
